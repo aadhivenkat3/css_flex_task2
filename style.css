@@ -1,0 +1,36 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.row{
+	display:flex;
+}
+.col1,.col2{
+	width:50%;
+}
+.col1{
+	margin:30px;
+	padding-top:40px;
+	padding-left:40px;
+}
+.col1 h1{
+	font-size:195%;
+	letter-spacing:2px;
+	word-spacing:2px;
+	line-height:30px;
+}
+.col1 h5{
+	font-size:110%;
+	letter-spacing:1px;
+	word-spacing:2px;
+}
+.col2{
+	margin:30px;
+	padding-top:40px;
+	padding-right:45px;
+}
+ul{
+	list-style-image:url("icon/tick.png");
+	list-style-position:inside;
+}
